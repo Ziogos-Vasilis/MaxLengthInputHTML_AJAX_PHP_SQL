@@ -8,6 +8,7 @@
   </head>
   <body>
 
+    <!-- creates a loop through database to display the dates that exist -->
     <select id="selectDate" name="" onchange="handleChange()">
       <option value="" selected>-</option>
       <?php
@@ -30,7 +31,6 @@
 
 <script type="text/javascript">
   function handleChange(){
-
     let date = document.getElementById("selectDate").value;
     console.log(date);
     $.ajax({
