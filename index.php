@@ -28,8 +28,7 @@
   </body>
 </html>
 
-<!-- Runs every time the input change value and creates a query 
-      about how many seats there are available-->
+<!-- Runs every time the input change value and creates a query about how many seats there are available-->
 <script type="text/javascript">
   function handleChange(){
 
